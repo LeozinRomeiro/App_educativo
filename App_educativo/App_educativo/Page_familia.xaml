@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_educativo.Page_familia">
+    <ContentPage.Content>
+        <ScrollView>
+            
+            <StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_daughter"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Daughter" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: ?" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_father"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Father" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Pae" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_grandfather"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Grand father" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Pae grande" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_grandmother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Grand mother" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Mae grande" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_mother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Mother" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Mostarda" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_older_sister"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Older sister" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Branco" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_son"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Son" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Musica" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_younger_brother"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Younger brother" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Branco" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="family_younger_sister"/>
+                    <StackLayout>
+                        <Label Text="Inglês: Younger sister" VerticalOptions="EndAndExpand" />
+                        <Label Text="Português: Branco" VerticalOptions="StartAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <Button Text="Finalizar" HorizontalOptions="FillAndExpand" 
+                    VerticalOptions="FillAndExpand" 
+                    Clicked="botao_sair_Clicked" 
+                    BackgroundColor="SlateBlue" 
+                    TextColor="White" 
+                    FontAttributes="Bold" Margin="10,1"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

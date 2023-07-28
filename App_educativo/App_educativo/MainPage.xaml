@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_educativo.MainPage" Title="Inglês para Crianças" Background="Blue">
+
+    <StackLayout Background="RoyalBlue">
+        <Image Source="logoapp" Background="transparent"/>
+        <Button Text="Cores" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                x:Name="botao_cores" 
+                Clicked="botao_cores_Clicked" 
+                BackgroundColor="SlateBlue" 
+                TextColor="White" 
+                FontAttributes="Bold" Margin="10,1"/>
+        
+        <Button Text="Números" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                x:Name="botao_numeros" 
+                Clicked="botao_numeros_Clicked"
+                BackgroundColor="LightSteelBlue"
+                TextColor="White" 
+                FontAttributes="Bold" Margin="10,1"/>
+        
+        <Button Text="Família" HorizontalOptions="FillAndExpand" 
+                VerticalOptions="FillAndExpand" 
+                x:Name="botao_familia" 
+                Clicked="botao_familia_Clicked"
+                BackgroundColor="CadetBlue" 
+                TextColor="White" 
+                FontAttributes="Bold" Margin="10,1"/>
+
+        <Button Text="Sair"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="FillAndExpand"
+                x:Name="botao_sair"
+                Clicked="botao_sair_Clicked"
+                BackgroundColor="Red"
+                TextColor="White"
+                FontAttributes="Bold" Margin="10,1"/>
+    </StackLayout>
+
+</ContentPage>
